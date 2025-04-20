@@ -73,4 +73,5 @@ async def watch(interaction: discord.Interaction):
     await interaction.followup.send(embed=main_menu_embed(), view=MainMenu(interaction.user), file=file, ephemeral=True)
 
 # ===== شغّل البوت =====
-bot.run("MTM2MzIwMTEzOTA1MDQxNDExMA.Gnydn4.793h0mjsWcClEjxGDXa0lFzxYT-Vt_j5XKyHvs")
+
+
